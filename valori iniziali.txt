@@ -1,0 +1,67 @@
+predictions <- eth_2(parameters_values, S0c=38676295, Le0c=82510, Ll0c=2147490, D0c=4924, Dt0c=12981, Dt_star0c=0, R0c=30,671, Rn0c=129, R_star0c=0,  
+                     S0a=26255966, Le0a=867000, Ll0a=23400000, D0a=34468, Dt0a=90871, Dt_star0a=0, R0a=901, Rn0a=213794, R_star0a=0, N0=91818000, Inc0=233000, times = seq(0, 10))
+
+
+yini = c(Sc=38676295, Lec=82510*1.13, Llc=2147490*1.13, Dc=4924, Dtc=12981, Rc=30671, Rnc=129,  
+           Sa=26255966, Lea=783290*1.13, Lla=20386710*1.13, Da=54468, Dta=70871, Ra=901, Rna=213794, N=91818000, Dead=42000, Inc=233000)
+
+
+yini = c(Sc=38676295, Lec=100700*1.185, Llc=2269300*1.185, Dc=4924, Dtc=12981, Rc=30671, Rnc=129,  
+           Sa=26255966, Lea=959300*1.185, Lla=22470700*1.185, Da=54468, Dta=70871, Ra=901, Rna=213794, N=91818000, Dead=42000, Inc=233000)
+  
+
+In the year 2009/10 Ethiopia registered 146,172 cases of TB. Among
+these, 139,261 were new cases; 46,132 new smear-positive (33.1%);
+49,037 new smear-negative (35.2%); 44,092 new extra-pulmonary TB
+(31.6%). The number of new TB cases among children (< 14 years old) accounted for 10.5% of the total
+new cases (14,710).
+
+SN prevalence in 15+: 145(98–187) /100,000
+SP prevalence in 15+: 108(72-138) /100,000 
+prevalence in <15:    7.5 /100,000
+
+From Johanes et al. the overall prevalence of smear positive pulmonary tuberculosis in 2011 was 14.2%.
+41,318,100 children
+50,499,900 adults
+
+3,099 cases in children +12,372?  15,471
+127,765 cases in adults (164,125 max or 298,409 depending on how you consider the rate, on the whole population or just adults)
+
+143,236 total prevalence
+73% notified = 104,562
+38,674 unknown
+children are 10.5%
+unknown: 4,061 children and 34,613 adults
+notified: 10,979 children and 93,583 adults
+
+yini = c(Sc=38911307, Lec=100700, Llc=2269300, Dc=4254, Dtc=11216, Rc=20198, Rnc=1125,  
+           Sa=26755282, Lea=959300, Lla=22470700, Da=35135, Dta=92630, Ra=10119, Rna=166734, N=91818000, Dead=42000, Inc=233000)
+
+yini = c(Sc=38911307, Lec=100700, Llc=2269300, Dc=761, Dtc=14710, Rc=29420, Rnc=1522,
+           Sa=26755282, Lea=626053, Lla=22470700, Da=32596, Dta=95169, Ra=1713042, Rna=651920, N=91818000, Dead=23300, Inc=133000) #*16   Dead=23300, Inc=133000  Dead=42000, Inc=159139
+  
+
+
+yini = c(Sc=38655496, Lec=82510, Llc=2147490, Dc=9768, Dtc=70000, Dt_starc=0, Rc=30671, Rnc=129, R_starc=0,  
+           Sa=26110378, Lea=867000, Lla=23400000, Da=62596, Dta=75169, Dt_stara=0, Ra=901, Rna=213794, R_stara=0, N=91818000, Inc=90000, Dtb = 20000) #, Inc=159000, Dtb = 30000
+  
+
+
+
+
+1960 initiation
+
+Population
+0-14: 9298000 
+15+: 12442000
+
+Crude birth rate (births x 1,000 population):
+47.15 in 1960
+33.10 in 2019
+
+Crude death rate (deaths x 1,000 population):
+23.3 in 1960
+ 6.4 in 2019
+
+
+
